@@ -22,6 +22,5 @@ from .processors import (
     xnli_tasks_num_labels,
 )
 
-
 if is_sklearn_available():
     from .metrics import glue_compute_metrics, xnli_compute_metrics
